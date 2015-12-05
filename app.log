@@ -1,0 +1,215 @@
+ERROR @ 2015-11-20 18:47:13,575 @ app.py log_exception 1423: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-11-20 18:47:13,722 @ app.py log_exception 1423: Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:20,974 @ app.py log_exception 1423: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:21,110 @ app.py log_exception 1423: Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:24,517 @ app.py log_exception 1423: Exception on /cpanel [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:24,587 @ app.py log_exception 1423: Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:56,333 @ app.py log_exception 1423: Exception on /admin [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:28:56,396 @ app.py log_exception 1423: Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:29:00,119 @ base.py exception_handler 52: Uncaught Exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+ERROR @ 2015-12-05 16:29:00,120 @ app.py log_exception 1423: Exception on /admin/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1379, in handle_user_exception
+    return handler(e)
+  File "/vagrant/eventum/routes/base.py", line 55, in exception_handler
+    flash('An uncaught error occured: {}'.format(error.strerror),
+AttributeError: 'exceptions.RuntimeError' object has no attribute 'strerror'
+ERROR @ 2015-12-05 16:29:00,181 @ app.py log_exception 1423: Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1473, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1666, in preprocess_request
+    rv = func()
+  File "/vagrant/eventum/routes/base.py", line 94, in _lookup_current_user
+    lookup_current_user()
+  File "/vagrant/eventum/routes/base.py", line 29, in lookup_current_user
+    session['gplus_id'] = SUPER_USER_GPLUS_ID
+  File "/usr/local/lib/python2.7/dist-packages/werkzeug/local.py", line 341, in __setitem__
+    self._get_current_object()[key] = value
+  File "/usr/local/lib/python2.7/dist-packages/flask/sessions.py", line 126, in _fail
+    raise RuntimeError('the session is unavailable because no secret '
+RuntimeError: the session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
