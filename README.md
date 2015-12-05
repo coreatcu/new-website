@@ -1,9 +1,3 @@
-# ADI Website ([adicu.com][adi])
-
-[![Build Status](https://travis-ci.org/adicu/adi-website.svg)](https://travis-ci.org/adicu/adi-website)
-
-[ADI][adi] is the tech club at [Columbia][columbia].  The ADI website is built on [Eventum][eventum], a content management system for an event-driven blog that syncs with Google Calendar.
-
 ## Stack
 - Built in [Flask][flask]
 - [Flask-Mongoengine][flask-mongoengine] and [Mongoengine][mongoengine] are used to interface with [MongoDB][mongodb]  
